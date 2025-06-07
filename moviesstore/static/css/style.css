@@ -45,6 +45,8 @@
 }
 
 .img-card-400 {
-  width: fit-content;
-  max-height: 400px;
+  /* width: fit-content;
+  max-height: 400px; */
+  width: 360px;
+  max-height: 540px;
 }
