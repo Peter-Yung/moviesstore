@@ -22,6 +22,7 @@ from django.conf import settings
 urlpatterns = [
     path('', include('home.urls', namespace='home')),
     path('movies/', include('movies.urls', namespace='movies')),
+    path('accounts/', include('accounts.urls', namespace='accounts')),
     path('admin/', admin.site.urls),
 ]
 
